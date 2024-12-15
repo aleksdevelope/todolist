@@ -1,0 +1,11 @@
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+}
+input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15pt;
+}
+body {
+    background-image: linear-gradient(0deg, rgba(135,34,195,1) 0%, rgba(253,45,45,1) 100%);
+}

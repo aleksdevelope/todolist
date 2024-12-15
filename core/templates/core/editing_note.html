@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Note</title>
-</head>
-<body>
+{% extends 'core/layout.html' %}
+
+{% block title %}Note{% endblock %}
+
+{% block body %}
     <p>Place for notes.</p>
     <input type="text" id="edit_note" placeholder="Write note">
     <input type="button" id="save_note">
-</body>
-</html>
+{% endblock %}
