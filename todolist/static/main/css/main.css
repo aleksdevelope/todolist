@@ -1,0 +1,137 @@
+body {
+    background-color: rgba(255, 255, 0, 0.548);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.note {
+    border: 5px solid rgba(0, 0, 0, 0.33);
+    display: grid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.upper-navigation-buttons {
+    border: 5px solid rgba(0, 0, 0, 0.40);
+    display: flex;
+    border-radius: 4px;
+    padding: 10px;
+    width: 14%;
+    background-color: rgba(0, 0, 0, 0); 
+    float: right;
+    margin: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#note-description {
+    font-size: 15pt;
+}
+
+.edit-note {
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    font-weight: 600;
+    padding: 10px;    
+}
+
+/* #add-note {
+    background-color: rgba(0, 0, 0, 0); 
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    margin: 10px;
+    float: right;
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+} */
+
+#note-title {
+    padding: 6px;
+    border-bottom: 3px solid black;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#upper-navigation {
+    display: grid;
+    justify-items: right;
+    border-radius: 5px;
+}
+
+.icons {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+li {
+    background-color: rgba(255, 255, 0, 0.212);
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    padding: 10px;
+}
+
+a {
+    margin: 2px;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    font-weight: 600;
+}
+ 
+a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+aside {
+    float: left;
+    border: 10px solid rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    height: 100vh;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.navigation-icon {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+
+.list-element {
+    display: block;
+    border: 3px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    margin-right: 50%;
+    margin-top: 10px;
+    margin-left: -20px;
+    padding: 2px;
+}
+
+#logo {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#logo-img {
+    width: 20%;
+    height: 20%;
+}
+
+#logo-text {
+    font-weight: 700;
+    position: relative;
+    top: 1.25vh;
+    /* margin-top: 2.5vh; */
+}
